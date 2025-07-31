@@ -1,0 +1,74 @@
+ /* Overall layout */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Centered board container */
+.board-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #e2e8f0; 
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Status text */
+.status {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2d3748; /* dark gray */
+  margin-bottom: 20px;
+}
+
+/* Rows of the board */
+.board-rows {
+  display: flex;
+  justify-content: center;
+}
+
+/* Square style (you apply this in Square.js) */
+.square {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  background-color: #ffffff;
+  border: 2px solid #cbd5e0; /* light border */
+  border-radius: 12px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1a202c; /* dark text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.square:hover {
+  background-color: #edf2f7;
+  transform: scale(1.05);
+}
+
+/* Play Again Button */
+button {
+  padding: 10px 20px;
+  background-color: #4299e1;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2b6cb0;
+}
