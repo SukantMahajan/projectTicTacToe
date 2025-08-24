@@ -2,7 +2,9 @@ import React from 'react'
 import { useState } from 'react'
 
 import './App.css'
-import Board from './tictactoegame/board.jsx'
+import Board from "./tictactoegame/Board.jsx";
+ // if file is Board.jsx
+   
 
 
 
